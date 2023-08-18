@@ -1,0 +1,1 @@
+In this DIR understand the vector we are using is in the standard library so there is no confusion with the vector class created. The one being used is by far the object you should be using when creating functions 

@@ -1,0 +1,1 @@
+This is basiclly to help with C++ coding or if you want to learn how to code in C++ follow along. They offer a class on C++ so if you take it I will do anything possible to post answers as I go along. Hey lets be real create a fake account and DM me.
