@@ -1,0 +1,57 @@
+C++ Offers a conventional and flexible set of statements. 
+Basically all that is either interesting or complicated is found in expressions and declarations. 
+Note that a declaration is a statement and that an expression becomes a statement when you add a semicolon at its end. 
+Unlike an expression, a statement does not have a value. Instead, statements are used to specify the order of execution.
+
+a = a+c; 		/*expression statements*/
+if (a == 7)		/*if-statement*/
+a = 9;			/*execute IFF a == 9*/
+
+
+				Statment Summary: 
+
+statement: 
+	declaration 
+	expression; 
+	{statment-list} handler-list 
+	try(statment-list) handler-list
+
+	case constrant-expression : statement
+	default: statement 
+	break; 
+	continue; 
+	
+	return expression; 
+
+	goto identifier; 
+	identifier : statement
+
+	selection-statement
+	iteration-statement 
+
+selection-statement: 
+	if(condition) statement
+	if(condition) statement else statement 
+	switch(condition) statement
+
+iteration-statement: 
+	while(condition) statement
+	do statement while (expression); 
+	for(for-init-statement condition ; expression) statement 
+	for(for-init-declaration : expression) statement 
+
+statement-list: 
+	statement statement-list
+
+condition: 
+	expression
+	type-specifier declarator = expression
+	type-specifier declarartor{expression}
+
+handler-list: 
+	handler handler-list
+
+handler: 
+	catach(exception-declaration){statement-list}
+
+a semicolon is by itself a statement, the empty statement. 

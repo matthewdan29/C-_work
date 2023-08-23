@@ -1,0 +1,5 @@
+In this chapter a calculator is made.
+
+The calculator consists of four main parts: a parser, an input function, a symbol table, and a driver. It is a miniature compiler in which the parser does the syntactic analysis, the input function handles input and lexical analysis, the symbol table holds permanent information, and the driver handles input and lexical analysis, the symbol table holds permanent information, and the driver handles initialization, output, and errors. We could add many features to this calculator to make it more useful.
+
+There and refference issue with the 2 calc the first 1 was badly put together 
