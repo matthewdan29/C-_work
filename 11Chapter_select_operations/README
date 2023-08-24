@@ -1,0 +1,9 @@
+This is going to be about logic operators: 
+
+The Logical operator "&&"(and), ||(or), and !(not) take operands of arithmitic and pointer types, convert them to "bool", and return a "bool" result. The "&&" and "||" operators evaluate their second argument only if necessary, so they can be used to control evaluation order. For example: 
+
+			while(p && !whitespace(*p)) ++p;
+
+Here, 'p' is not dereferenced if it is a "nullptr".
+
+There a lot I just decided to copy straight from  Bjarne Stroustrup writing because memory managment is very important and can cause data leakage and POA
