@@ -1,0 +1,14 @@
+In this chapter "Macros" are explained and it your taking CSC 374 I would look closly main because the "Macros" in the second to last and last project was written in a C++ way, although "Macros" are very important in 'C'. This will help you out a lot.
+
+Macros are very important in 'C' but have far fewer uses in "C++". The first rule about macros is: don't use them unless you have to. Almost every macro demonstrates a flow in the programming language, in the program, or in the programmer. Because they rearrange the program text before the compiler proper see it, macros are also a major problem for many programming support tools. So when you use macros, you should expect inferior service from tools such as debuggers, crossreference tools, and profilers. If you must use macros, please read the reference manual(this is considered by Matthew K daniels a manual) for your own implemnetation of the C++ preprocessor carefully and try not to be too clever. Also, to warn reader, follow the convention to name macros using lots of capital letters.				
+						-Bjarne Stroustrup
+
+
+Also I know shell short is long and on one file. I am tring to follow the method of the book as best as possible meaning we havent reached the chapter yet for creating your own header file. Even though you seen example of header files and pacages in the learning C and C data structures and algorithms(most likely splled wrong *I probly spelled likely wrong too* hey give me a break teaching myself a lot of new stuff too about the C++ lang) 
+
+
+/*primary expression error on ssort but checked*/
+/*https://learn.microsoft.com/en-us/cpp/cpp/primary-expressions?view=msvc-170 */
+/*it explained i had the correct global space*/
+
+also checked with pages 245 and 246. look at the case's. I'm left thinking that a conditional statement might make it work on GCC 
