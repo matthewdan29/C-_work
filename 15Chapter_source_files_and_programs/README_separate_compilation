@@ -1,0 +1,3 @@
+Any realistic program consists of many logically separated compoints. 
+To better manage these components, you can represent the program as a set of (source code) files where each file contains one or more logical components in a consistent, comprehensible, and flexible manner. You aim for a clean separation of interfaces and implementations. A flie is the traditional unit of storage and the traditional unit of compilation. 
+There are systems that do not store, compile, and present C++ programs to the programers as sets of files. The discusion here will concentrate on systems that employ the traditional use of filesl 
