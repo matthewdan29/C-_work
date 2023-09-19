@@ -1,0 +1,29 @@
+Containers can be categorized like this: 
+
+	1) Sequence containers provide access to (half open) sequences of elements. 
+	2) Associative containers provide associative lookup based on a key. 
+	
+The standard library provides types of objects that hold elements while not offering all the facilites of sequence containers or associative containers: 
+
+	1)container adaptors provide specialized access to underlying containers.
+	2) almost containers are sequences of elements that provide most, but not all, of the facilites of a cantainer.
+
+The STL containers are all resource handles with copy and move operations. All operations on containers provide the basic guarantee to ensure that they interact properly with exception-based error handling. 
+				
+			Below is examples of sequenceContainers 
+
+	vector<T,A>		A contiguously allocated sequence of 'T's: 
+				the default coice of container
+
+	list<T,A>		A doubly-linked list of 'T'; use when you need
+				to insert and delete elements without moving 
+				existing elements. 
+
+	forward_list<T,A>	A singly-linked list of 'T'; ideal for empyt for
+				empty and very short sequences 
+	
+	deque<T,A>		A double-ended queue of 'T'; a cross between a 
+				vector and a list; slower than one or the other
+				for most uses
+
+NOTE: "vector" provides operations for inserting and erasing elements, allowing a "vector" to grow and shrink as needed. For sequences of small elements, a "vector" can e an excellent representation for a data structure requiring list operations. 
